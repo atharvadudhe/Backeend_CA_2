@@ -1,0 +1,19 @@
+meta {
+  name: users
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/signup
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "email":"abc@gmail.com",
+    "password":"acbbcbjasd",
+    "dob":"12122005"
+  }
+}
